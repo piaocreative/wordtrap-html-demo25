@@ -1,0 +1,30 @@
+.main-section {
+  background-image: url(../images/404.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+  
+  @include media-breakpoint-up(xl) {
+    height: 51rem;
+  }
+}
+
+.link {
+  position: absolute;
+  bottom: 4.6rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+  width: fit-content;
+  
+  li {
+    padding: 1.25rem 0.75rem;
+  }
+
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
+}

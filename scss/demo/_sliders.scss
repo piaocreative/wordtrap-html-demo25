@@ -1,0 +1,47 @@
+
+/* ----------------------------------------------------------------
+
+	slider.scss
+
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Slider
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Add here styles for all sliders. Thanks!
+-----------------------------------------------------------------*/
+.slick-prev,
+.slick-next {
+	color: $theme-color;
+	background-color: transparent;
+	opacity: 0.5;
+	border-radius: 50%;
+	width: 3.42rem;
+	height: 3.42rem;
+	border: 1px solid $theme-color;
+	font-size: 1rem;
+
+	&:hover {
+		opacity: 1;
+		width: 4.68rem;
+		height: 4.68rem;
+	}
+}
+
+.slick-number {
+	font-size: $h3-font-size;
+	color: $heading-color;
+	font-weight: 400;
+	font-family: $heading-font;
+}
+
+.select {
+	font-size: 4rem;
+	border-bottom: 1px solid $heading-color;
+	margin-right: 1.7rem;
+	line-height: 1.2;
+}
