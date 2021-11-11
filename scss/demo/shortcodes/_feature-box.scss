@@ -17,9 +17,11 @@
 		width: 1.5rem;
 	}
 
-	span {
-		margin-left: 1.5rem;
-		line-height: $line-height-base;
+	.fbox-header {
+		span {
+			margin-left: 1.5rem;
+			line-height: $line-height-base;
+		}
 	}
 }
 

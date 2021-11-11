@@ -22,24 +22,12 @@ $light:                         #535353;
 
 $body-font:                     'Segoe UI', 'Sans Serif';
 $heading-font:                  'Abril Fatface', 'Sans Serif';
-$third-font:                    'Playfair Display', 'Sans Serif';
 
 //-------------------- Redefine Bootstrap Variables ------------//
 
 // Theme Colors
 $primary:                       $theme-color;
 $secondary:                     $heading-color;
-
-// Spacer
-$spacer: 1rem !default;
-$spacers: (
-  0: 0,
-  1: $spacer / 4,
-  2: $spacer / 2,
-  3: $spacer,
-  4: $spacer * 1.25,
-  5: $spacer * 2,
-) !default;
 
 // Link
 $link-color:                    $heading-color;
@@ -214,7 +202,7 @@ $si_text_color:               #FFFFFF;
 
 // Grid
 
-$grid-gutter-width:           1.59rem;
+$grid-gutter-width:           1.5rem;
 
 $container-max-widths: (
   sm: 540px,

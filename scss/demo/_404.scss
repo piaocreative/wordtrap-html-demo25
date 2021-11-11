@@ -1,18 +1,14 @@
-.main-section {
+.error-404 {
   background-image: url(../images/404.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 60vh;
-  
-  @include media-breakpoint-up(xl) {
-    height: 51rem;
-  }
+  height: 50rem;
 }
 
-.link {
+.error-menu {
   position: absolute;
-  bottom: 4.6rem;
+  bottom: 0;
   left: 50%;
   transform: translateX(-50%);
   background-color: white;

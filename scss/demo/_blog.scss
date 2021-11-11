@@ -11,18 +11,9 @@
 
 .post {
 	position: relative;
-	margin-bottom: 1.875rem;
 
-	&.post-flat {
-		display: flex;
-		
-		.post-thumbnail {
-			flex: 1;
-		}
-
-		.post-content {
-			flex: 1;
-		}
+	@include media-breakpoint-down(lg) {
+		margin-bottom: 1.875rem;
 	}
 }
 
@@ -49,39 +40,16 @@
 	padding: 1.875rem 0;
 }
 
-.entry-title {
-	h4 {
-		font-family: $body-font;
-		font-weight: 400;
-		line-height: $line-height-sm;		
-
-		a {
-			color: $heading-color;
-			
-			&:hover { color: $theme-color; }
-		}
-	}
-}
-
 .entry-meta {
-	list-style: none;
-	margin-bottom: 1.25rem;
-
-	li {
-		i {
-			color: rgba($theme-color, 0.5);
-			margin-right: 0.75rem;
-		}
-
-		a {
-			font-weight: 300;
-		}
-	}
+	font-style: italic;
+	font-weight: 700;
+	font-family: "Playfair Display","Sans Serif";
+	color: $theme-color;
 }
 
-.entry-content { 
-	position: relative; 
-	margin-bottom: 3.125rem;
+.entry-title {
+	font-size: 3rem;
+	font-weight: 400;
 }
 
 .entry-link {
@@ -89,7 +57,6 @@
 	color: $theme-color;
 	font-family: $body-font;
 	text-transform: uppercase;
-	font-size: $h6-font-size;
-	font-weight: 600;
-	line-height: $line-height-lg;
+	font-size: 0.875rem;
+	font-weight: 700;
 }
