@@ -13,7 +13,7 @@
 //-------------------- Base Colors --------------------//
 
 $theme-color:                   #e3547f;
-$heading-color:                 #302f2d;
+$headings-color:                 #302f2d;
 $body-color:                    #302f2d;
 $light:                         #535353;
 
@@ -27,10 +27,10 @@ $heading-font:                  'Abril Fatface', 'Sans Serif';
 
 // Theme Colors
 $primary:                       $theme-color;
-$secondary:                     $heading-color;
+$secondary:                     $headings-color;
 
 // Link
-$link-color:                    $heading-color;
+$link-color:                    $headings-color;
 $link-decoration:				        none;
 $link-hover-color:				      $theme-color;
 
@@ -65,7 +65,7 @@ $btn-line-height:               1;
 
 
 // Forms
-$input-color:                   $heading-color;
+$input-color:                   $headings-color;
 $input-border-color:            $theme-color;
 $input-border-width:			      0;
 $input-btn-focus-color-opacity: 1;

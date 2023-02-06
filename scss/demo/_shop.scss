@@ -50,7 +50,7 @@
 	}
 
 	.category-desc {
-		color: $heading-color;
+		color: $headings-color;
 		font-weight: 350;
 		margin-bottom: 0;
 		// @include translateY(-50%);
@@ -73,7 +73,7 @@
 
 .category-btn {
 	padding: 0.98rem 1.96rem;
-	color: $heading-color;
+	color: $headings-color;
 	font-size: 0.812rem;
 	font-weight: 700;
 	background-color: white;
@@ -168,7 +168,7 @@
 
 	.add-to-cart {
 		a {
-			color: $heading-color;
+			color: $headings-color;
 			display: flex;
 			align-items: center;
 		
@@ -216,7 +216,7 @@
 		z-index: 100 !important;
 	
 		.product-title {
-			color: $heading-color;	
+			color: $headings-color;	
 			font-family: $body-font;
 			font-size: $h4-font-size;
 			font-weight: 350;
@@ -226,7 +226,7 @@
 		}
 
 		.product-price {
-			color: $heading-color;
+			color: $headings-color;
 			font-family: $heading-font;
 			font-size: 1.5rem;
 			font-weight: 700;
@@ -236,7 +236,7 @@
 
 			del {
 				font-size: $h5-font-size;
-				color: $heading-color;
+				color: $headings-color;
 				padding-left: 0.5rem;
 				margin-bottom: 2.3rem;
 			}
